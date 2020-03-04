@@ -1,0 +1,1041 @@
+/*********** starting the constant *************/ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+@font-face {
+    font-family: Kufyan-Arabic-Regular;
+    src: url(../fonts/Kufyan-Arabic-Regular.ttf);
+}
+body
+{
+    font-family: 'Kufyan-Arabic-Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+a
+{
+    text-decoration: none !important;
+}
+input:focus,
+textarea:focus
+{
+    outline: none;
+}
+/*********** End the constant *************/
+/***********  *************/
+/***********  *************/
+/*********** starting topnavbar *************/
+.topnavbar
+{
+    border-bottom: 4px solid #8d1714;
+    background-image: url(../images/header-lines.png);
+}
+.topnavbar .container
+{
+    
+}
+.topnavbar .container > .row
+{
+    
+}
+.topnavbar .container > .row > div
+{
+    
+}
+.topnavbar .container > .row > div:nth-child(1)
+{
+    
+}
+.topnavbar .container > .row > div:nth-child(1) i
+{
+    background-color: #ca9562;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: all .35s ease-in-out;
+}
+.topnavbar .container > .row > div:nth-child(1) i:hover
+{
+    background-color: #8d1714;
+}
+.topnavbar .container > .row > div:nth-child(1) > .row > div:not(:first-child) a
+{
+    color: #8d1714;
+}
+.topnavbar .container > .row > div:nth-child(1) > .row > div
+{
+    text-align: center;
+    padding: 10px 0px;
+    transition: all .35s ease-in-out;
+}
+.topnavbar .container > .row > div:nth-child(1) > .row > div:not(:first-child):hover
+{
+    background-color: #cd9e64;
+}
+.topnavbar .container > .row > div:nth-child(2)
+{
+    position: relative;
+}
+.topnavbar .container > .row > div:nth-child(2) img
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 7px solid #8d1714;
+    border-radius: 40%;
+    background-color: #fff;
+    z-index: 999999;
+}
+.topnavbar .container > .row > div:nth-child(3)
+{
+    
+}
+.topnavbar .container > .row > div:nth-child(3) .row > div
+{
+    text-align: center;
+    padding: 10px 0px;
+    transition: all .35s ease-in-out;
+}
+.topnavbar .container > .row > div:nth-child(3) .row > div:hover
+{
+    background-color: #cd9e64;
+}
+.topnavbar .container > .row > div:nth-child(3) a
+{
+    color: #8d1714;
+}
+.topnavbar .container > .row > div:nth-child(3) .row > div:nth-child(3)
+{
+    background-color: #349106;    
+}
+.topnavbar .container > .row > div:nth-child(3) p
+{
+    margin-bottom: 0;
+    background-color: #349106;
+    color: #fff;
+    padding: 0px 0px 3px 0px;
+}
+.topnavbar .container > .row > div:nth-child(3) p i
+{
+    
+}
+@media (max-width: 576px)
+{
+    .topnavbar .container > .row > div:nth-child(2) img
+    {
+        top: 45px;
+    }
+    .topnavbar
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .topnavbar
+    {
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .topnavbar .container > .row > div:nth-child(3) p
+    {
+        padding: 4px 0px 3px 0px;
+        font-size: 12px;
+    }
+}
+/*********** End topnavbar *************/
+/***********  *************/
+/***********  *************/
+/*********** starting mobile-header *************/
+.mobile-header
+{
+/*
+    background: url(../images/header-mobile.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: round;
+    height: 550px;
+    width: 100% !important;
+*/
+    position: relative;
+    display: none;
+}
+.mobile-header > div
+{
+    
+}
+.mobile-header > div:nth-child(1)
+{
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    height: 70px;
+    border-bottom: 3px solid #9c1111;
+}
+.mobile-header > div:nth-child(1) img
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    z-index: 99999;
+    border-bottom: 4px solid #9c1111;
+}
+.mobile-header > div:nth-child(1) i
+{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    transform: translateY(-50%);
+    color: #cd9c67;
+    cursor: pointer;
+}
+.mobile-header .carousel-item img
+{
+    width: 100%;
+}
+.mobile-header .carousel-control-prev-icon, .mobile-header .carousel-control-next-icon {
+    background-image: none !important;
+}
+.mobile-header .sidemenu
+{
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 370px;
+    top: 70px;
+    text-align: center;
+    padding: 50px 0px;
+    z-index: 9999;
+}
+.mobile-header .sidemenu > a
+{
+    color: #9a1211;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mobile-header .sidemenu > div
+{
+    
+}
+.mobile-header .sidemenu > div > a
+{
+    
+}
+.mobile-header .sidemenu > div > a i
+{
+    background-color: #ca9562;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: all .35s ease-in-out;
+}
+@media (max-width: 576px)
+{
+    .mobile-header
+    {
+        display: block;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .mobile-header
+    {
+        display: block;
+    }
+}
+/*********** End mobile-header *************/
+/***********  *************/
+/***********  *************/
+/*********** starting intro *************/
+.intro
+{
+    overflow: hidden;
+    
+}
+.intro .carousel-item
+{
+    
+}
+.intro .carousel-item img
+{
+    width: 100%;
+    height: 415.67px;
+}
+.intro .carousel-control-prev i, .intro .carousel-control-next i {
+    color: #fff;
+    background-color: #ca9562;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .35s ease-in-out;
+}
+.intro .carousel-control-next i
+{
+    margin-left: -25px;
+}
+.intro .carousel-control-prev-icon, .intro .carousel-control-next-icon {
+    background-image: none !important;
+}
+.intro .carousel-control-next, .intro .carousel-control-prev
+{
+    z-index: 99999999 !important;
+    opacity: 1;
+}
+@media (max-width: 576px)
+{
+    .intro
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .intro
+    {
+        display: none;
+    }
+}
+/*********** End intro *************/
+/***********  *************/
+/***********  *************/
+/*********** starting neden *************/
+.neden
+{
+    background: url(../images/neden-lines.png);
+}
+.neden .container
+{
+    padding: 20px 0px;
+}
+.neden .container > img
+{
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;    
+}
+.neden .container .row > div
+{
+    text-align: center;
+}
+.neden .container .row > div img
+{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    border: 2px solid #cd9e64;
+    padding: 15px;
+    border-radius: 50%;    
+}
+.neden .container .row > div h6
+{
+    color: #921815;
+    font-weight: bold
+}
+.neden .container .row > div span
+{
+    font-weight: normal;
+}
+/*********** End neden *************/
+/***********  *************/
+/***********  *************/
+/*********** starting menuler *************/
+.menuler
+{
+    background-image: url(../images/menuler-background.png);
+    background-color: #000;
+    border-bottom: 4px solid #cc9d64;
+}
+.menuler .container
+{
+    padding: 50px 0px;
+}
+.menuler .container > img
+{
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px; 
+}
+.menuler .container > .row > div
+{
+    padding: 0px 30px;
+}
+.menuler .thebox
+{
+    
+}
+.menuler .thebox .row
+{
+    margin-bottom: 30px;
+}
+.menuler .thebox .row > div
+{
+    text-align: center;
+    padding: 0px;
+}
+.menuler .thebox .row > div:nth-child(2)
+{
+    background-color: #e6e6e6;
+    position: relative;
+    padding: 5px;
+}
+.menuler .thebox .row > div > img
+{
+    width: 100%;
+}
+.menuler .thebox .row > div h5
+{
+        color: #333333;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.menuler .thebox .row > div h6
+{
+    color: #921815;
+    margin-bottom: 30px;
+}
+.menuler .thebox .row > div:nth-child(2) > div:nth-child(2) img
+{
+    width: 80px;
+}
+.menuler .thebox .row > div:nth-child(2) > div:nth-child(3)
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -27px;
+    padding: 0px 25px;
+}
+.menuler .thebox .row > div h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.menuler .thebox .row > div h2 img
+{
+    width: 14px;
+}
+.menuler .thebox .row > div p
+{
+    color: #fff;
+    background-color: #329003;
+}
+.menuler .thebox .row > div p i
+{
+    
+}
+@media (max-width: 576px)
+{
+    .menuler .thebox .row > div h5
+    {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(3)
+    {
+        padding: 0px 5px;
+        bottom: -33px;
+    }
+    .menuler .thebox .row > div p
+    {
+        font-size: 14px;
+    }
+    .menuler .thebox .row > div h6
+    {
+        margin-bottom: 3px;
+    }
+    .menuler .thebox .row > div h6
+    {
+        font-size: 12px;
+    }
+    .menuler .thebox .row > div h2
+    {
+        margin-bottom: 5px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(2) img
+    {
+        width: 50px;
+    }
+    .menuler .thebox .juse
+    {
+        width: 20px !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .menuler .thebox .row > div h5
+    {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .menuler .thebox .row > div h6
+    {
+        margin-bottom: 0px;
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(3)
+    {
+        padding: 0px 5px;
+    }
+    .menuler .thebox .row > div p
+    {
+        font-size: 14px;
+    }
+    .menuler .thebox .row > div h2
+    {
+        margin-bottom: 0px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(2) img
+    {
+        width: 50px;
+    }
+    .menuler .thebox .juse
+    {
+        width: 20px !important;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .menuler .thebox .row > div h5
+    {
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    .menuler .thebox .row > div h6
+    {
+        margin-bottom: 0px;
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(3)
+    {
+        padding: 0px 7px;
+    }
+    .menuler .thebox .row > div p
+    {
+        font-size: 15px;
+    }
+    .menuler .thebox .row > div h2
+    {
+        margin-bottom: 10px;
+    }
+    .menuler .thebox .row > div:nth-child(2) > div:nth-child(2) img
+    {
+        width: 60px;
+    }
+    .menuler .thebox .juse
+    {
+        width: 30px !important;
+    }
+}
+/*********** End menuler *************/
+/***********  *************/
+/***********  *************/
+/*********** starting durumler *************/
+.durumler
+{
+    padding: 50px 0px;
+}
+.durumler > img
+{
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px; 
+}
+.durumler > .row
+{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.durumler > .row > div
+{
+    padding: 0px;
+}
+.durumler > .row > div:nth-child(2n+1)
+{
+    border-right: 3px solid #cc9d64;
+}
+.durumler > .row > div:nth-child(2n+1) > img
+{
+    width: 100%;
+}
+.durumler > .row > div:nth-child(2n+2)
+{
+    position: relative;
+    border-left: 3px solid #cc9d64;
+}
+.durumler > .row > div:nth-child(2n+2) > img
+{
+    width: 100%;
+    height: 100%;
+}
+.durumler .details
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+.durumler .details > div
+{
+    
+}
+.durumler .details h1
+{
+    color: #fff;
+    font-weight: bold;
+}
+.durumler .details h2
+{
+    color: #fff;
+        font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.durumler .details h2 img
+{
+    width: 14px;
+}
+.durumler .details p
+{
+    background-color: #329003;
+    color: #fff;
+    padding: 3px 0px;
+    width: 180px;
+    margin: auto;
+}
+@media (max-width: 576px)
+{
+    .durumler
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .durumler
+    {
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .durumler .details
+    {
+        padding: 10px;
+    }
+    .durumler .details h1
+    {
+        font-size: 25px;
+    }
+    .durumler .details h2
+    {
+        margin-bottom: 30px;
+    }
+}
+/*********** End durumler *************/
+/***********  *************/
+/***********  *************/
+/*********** starting mobile-durumler *************/
+.mobile-durumler
+{
+    display: none;
+}
+.mobile-durumler .container
+{
+    padding: 50px 0px;
+}
+.mobile-durumler .container > img
+{
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px; 
+}
+.mobile-durumler .container > .row 
+{
+    width: 100%;
+    margin: auto;
+}
+.mobile-durumler .container > .row > div
+{
+    padding: 0px 4px;
+    margin-bottom: 50px;
+}
+.mobile-durumler .container > .row > div > div > img
+{
+    width: 100%;
+    height: 130px;
+}
+.mobile-durumler .container > .row > div:nth-child(1)
+{
+    
+}
+.mobile-durumler .container > .row > div > div:nth-of-type(1)
+{
+    
+}
+.mobile-durumler .container > .row > div > div:nth-of-type(2)
+{
+    position: relative;
+}
+.mobile-durumler .container > .row > div:nth-child(2)
+{
+    
+}
+.mobile-durumler .details
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}
+.mobile-durumler .details > div
+{
+    
+}
+.mobile-durumler .details > div:nth-of-type(3)
+{
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+}
+.mobile-durumler .details h1
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.mobile-durumler .details h2
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mobile-durumler .details h2 img
+{
+    width: 14px;
+}
+.mobile-durumler .details p
+{
+    background-color: #329003;
+    color: #fff;
+    padding: 3px 0px;
+    width: 94%;
+    margin: auto;
+}
+@media (max-width: 576px)
+{
+    .mobile-durumler
+    {
+        display: block;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .mobile-durumler
+    {
+        display: block;
+    }
+}
+/*********** End mobile-durumler *************/
+/***********  *************/
+/***********  *************/
+/*********** starting footer *************/
+footer
+{
+    background: url(../images/footer-withlogo.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: round;
+    height: 250px;
+    width: 100% !important;
+}
+footer .container
+{
+    
+}
+footer .container > .row
+{
+    
+}
+footer .container > .row > div
+{
+    padding-top: 44px;
+}
+footer .container > .row > div:nth-child(1)
+{
+    text-align: center;    
+}
+footer .container > .row > div:nth-child(1) img
+{
+    
+}
+footer .container > .row > div:nth-child(2)
+{
+    
+}
+footer .container > .row > div:nth-child(2) img
+{
+    margin-bottom: 30px;
+}
+footer .container > .row > div:nth-child(2) p
+{
+    color: #fff;
+    font-size: 18px;
+}
+footer .container > .row > div:nth-child(3)
+{
+    
+}
+footer .container > .row > div:nth-child(3) p
+{
+        color: #fff;
+    font-size: 18px;
+}
+footer .container > .row > div:nth-child(3) p i
+{
+    color: #cc9d64;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;    
+}
+footer .container > .row > div:nth-child(3) > div
+{
+    padding-left: 60px;
+}
+footer .container > .row > div:nth-child(3) > div h4
+{
+    color: #fff;
+}
+footer .container > .row > div:nth-child(3) > div i
+{
+    color: #cc9d64;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition: all .35s ease-in-out;
+}
+footer .container > .row > div:nth-child(3) > div i:hover
+{
+    background-color: #cc9d64;
+    color: #fff;
+}
+footer > div:nth-of-type(2)
+{
+    display: none;
+}
+footer > div:nth-of-type(2)
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    bottom: -85px;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+footer > div:nth-of-type(2) img
+{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+@media (max-width: 576px)
+{
+    footer
+    {
+        background: url(../images/mobile-footer.png);
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-repeat: round;
+        height: 600px;
+        width: 100% !important;
+        position: relative;
+        overflow: hidden;
+    }
+    footer .container > .row > div {
+        padding-top: 25px;
+    }
+    footer > div:nth-of-type(2)
+    {
+        display: block;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    footer
+    {
+        background: url(../images/mobile-footer.png);
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-repeat: round;
+        height: 600px;
+        width: 100% !important;
+        position: relative;
+        overflow: hidden;
+    }
+    footer .container > .row > div {
+        padding-top: 25px;
+    }
+    footer > div:nth-of-type(2)
+    {
+        display: block;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    footer .container > .row > div
+    {
+        padding-top: 25px;
+    }
+    footer .container > .row > div:nth-child(2) p
+    {
+        font-size: 17px;
+    }
+    footer .container > .row > div:nth-child(3) p
+    {
+        font-size: 15px;
+    }
+}
+/*********** End footer *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/*@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** starting button-top *************/
+#button-top
+{
+    background-color: #cc9d64;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0.8;
+}
+#button-top:hover i
+{
+    opacity: 0.5;
+}
+/***********  End button-top*************/
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 340px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+@media (min-width: 1370px)
+{
+    .container
+    {
+        width: 1350px;
+    }
+}
+/******* End @media *********/
